@@ -21,6 +21,7 @@ function App() {
     <ProductContext.Provider value={{ products, addItem }}>
       <CartContext.Provider value={cart}>
         <div className="App">
+          <h1>Bookstore</h1>
           <Navigation cart={cart} />
 
           {/* Routes */}

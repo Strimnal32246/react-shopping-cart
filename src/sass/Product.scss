@@ -7,6 +7,9 @@
 
 	&:hover {
 		box-shadow: 0px 5px 37px -22px rgba(0, 0, 0, 1);
+		background: purple;
+		color: hotpink;
+
 	}
 
 	.details {
@@ -37,13 +40,13 @@
 		background: transparent;
 		transition: 0.15s ease-in-out;
 		margin: 10px 0;
-		color: lightcoral;
+		color: hotpink;
 		margin-left: 25px;
 
 		&:hover {
 			cursor: pointer;
-			background: lightcoral;
-			color: white;
+			background: deepskyblue;
+			color: hotpink;
 		}
 	}
 }
